@@ -69,35 +69,30 @@
     }
     //- За допомогою switch case - реалізувати гру - вікторину, де ми вводимо число від 1 до 5. І взалежності від введеного
     //  числа нам дається приз. (Авто, Мото, Телефон, і т.д ) і якщо число не підходить тоді  вивести Повідомлення - що число не вірне ... .
-    switch (1) {
+    let d = +prompt('введи число');
+    switch (d) {
         case 1:
-            console.log('Авто');
-            prompt('Введи число');
+            console.log(d);
             alert('Вітаю, ти виграв автомобіль');
             break;
         case 2:
-            console.log('Телефон');
-            prompt('Введи число');
+            console.log(d);
             alert('Вітаю, ти виграв телефон');
             break;
         case 3:
-            console.log('Квартира');
-            prompt('Введи число');
+            console.log(d);
             alert('Вітаю, ти виграв квартиру');
             break;
         case 4:
-            console.log('Путівка');
-            prompt('Введи число');
+            console.log(d);
             alert('Вітаю, ти виграв путівку');
             break;
         case 5:
-            console.log('сертифікат');
-            prompt('Введи число');
+            console.log(d);
             alert('Вітаю, ти виграв сертифікат');
             break;
         default:
-            console.log('не вірно');
-            prompt('Введи число');
+            console.log(d);
             alert('число не вірне');
 
     }
