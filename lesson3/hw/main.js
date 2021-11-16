@@ -52,7 +52,7 @@ for (let j = 0; j < str.length; j++) {
     //- Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
    // let any = [3,true,'one',6.4,false,'file',55,0, 'help', 9];
 //for (let j = 0; j < any.length; j++) {
-  //  if(typeof any [j] === `boolean`){
+  //  if(typeof any[j] === `boolean`){
       //  console.log(any[j]);
 //}
 //}
