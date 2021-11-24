@@ -1,13 +1,14 @@
 //створити функцію, яка якщо приймає один аргумент, просто вивдоить його, якщо два аргументи - складає або конкатенує їх між собою.
-function creatArrg(firstArguments,...arr) {
+function creatArrg(firstArguments,arr) {
+    let res = 0;
     if(arguments.length > 1){
-        arr.push(firstArguments)
+        res = firstArguments + arr;
     }else{
         console.log(firstArguments);
     }
-    return arr;
+    return res;
 }
-let a = creatArrg(14, 23,44,56,2);
+let a = creatArrg('14', '55');
 console.log(a);
 
 //створити функцію  яка приймає два масиви та скаладає значення елементів з однаковими індексами  та повертає новий результуючий масив.
@@ -45,12 +46,13 @@ creatArr([{name: 'Dima', age: 13}, {model: 'Camry'}]);
 //Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
 //   EXAMPLE:
 //   [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
+
 function creatArr1(users) {
     let key1 = [];
     for (const userElement of users) {
-            key1.push(userElement);
-        }
-        console.log(key1)
-    return key1
+        key1.push(userElement.name, userElement.age, userElement.model);
+    }
+         console.log(key1);
+   // return key1
 }
 creatArr1([{name: 'Dima', age: 13}, {model: 'Camry'}]);
