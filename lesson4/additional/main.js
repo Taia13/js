@@ -47,7 +47,7 @@ creatArr([{name: 'Dima', age: 13}, {model: 'Camry'}]);
 //   EXAMPLE:
 //   [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
 
-function creatArr1(users,) {
+function creatArr1(users) {
     let key1 = [];
    //  for (const userElement of users) {
    //      key1.push(userElement.name, userElement.age, userElement.model);
@@ -55,6 +55,7 @@ function creatArr1(users,) {
    //       console.log(key1);
    // // return key1
     for (let i = 0; i < users.length; i++) {
+
       key1.push(users[i].name,users[i].age, users[i].model);
 
     }
@@ -63,3 +64,6 @@ function creatArr1(users,) {
 }
 
 creatArr1([{name: 'Dima', age: 13}, {model: 'Camry'}]);
+
+
+
