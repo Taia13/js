@@ -1,0 +1,23 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+.post{
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: lightgray 5px 5px ;
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+}
+.comment{
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: lightgray 5px 5px ;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 2fr;
+}
